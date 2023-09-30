@@ -25,3 +25,47 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+main::after {
+  background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+@media (max-width: 768px) {
+  main::after {
+    background: none;
+  }
+}
+
+@media (max-height: 370px) and (max-width: 750px) {
+  .virado {
+    flex-direction: column !important;
+    width: 100px !important;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  main::after {
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    position: fixed;
+    min-width: 80vw;
+    min-height: 100vh;
+  }
+
+  main img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  main {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    text-shadow: #000 0 5px 5px;;
+  }
+
+  .conteudo {
+    position: absolute;
+    top: 0;
+  }
+
+  aside {
+  }
+}
