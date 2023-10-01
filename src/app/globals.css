@@ -63,9 +63,14 @@ main::after {
     position: absolute;
     justify-content: normal;
     top: 0;
+    overflow: auto;
   }
 
   .logo {
     margin: 0;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 }
