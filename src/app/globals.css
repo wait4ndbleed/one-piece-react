@@ -59,4 +59,8 @@ main::after {
     text-shadow: #000 0 5px 5px;;
   }
 
+  .conteudo {
+    position: relative;
+    top: 0;
+  }
 }
