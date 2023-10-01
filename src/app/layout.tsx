@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className="overflow-hidden">{children}</body>
+      <body className="sm:overflow-hidden text-white">{children}</body>
     </html>
   )
 }
