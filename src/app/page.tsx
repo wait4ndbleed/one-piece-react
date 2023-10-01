@@ -11,7 +11,7 @@ export default function Home() {
       <Personagem id={id} />
 
       <aside>
-        <ul className="relative md:fixed virado p-[30px] md:p-5 bottom-0 md:top-0 right-0 w-full md:w-[180px] min-h-screen flex flex-row md:flex-col justify-center items-end md:items-center gap-[10px] md:bg-black/30">
+        <ul className="relative md:fixed virado p-[30px] md:p-5 bottom-0 md:top-0 right-0 w-full md:w-[180px] md:min-h-screen flex flex-row md:flex-col justify-center items-end md:items-center gap-[10px] md:bg-black/30">
           <li>
             <button
               className={`rounded-full overflow-hidden hover:shadow-[0_0_10px_#d9d9d9] ${
