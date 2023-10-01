@@ -62,8 +62,7 @@ main::after {
   .conteudo {
     position: absolute;
     justify-content: normal;
-    top: 0;
-    overflow: auto;
+    top: -5%;
   }
 
   .logo {
