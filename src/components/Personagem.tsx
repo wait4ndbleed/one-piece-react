@@ -28,7 +28,7 @@ export const Personagem = ({ id }: Props) => {
           <img
             src="../assets/images/one-piece-logo.png"
             alt="One Piece"
-            className="w-[170px] md:w-[230px] mb-9"
+            className="w-[170px] md:w-[230px] mb-9 logo"
           />
           <h2 className={`text-4xl md:text-5xl font-normal mb-5 ${secularOne.className}`}>
             {Personagens[id].name}

@@ -60,7 +60,12 @@ main::after {
   }
 
   .conteudo {
-    position: relative;
+    position: absolute;
+    justify-content: normal;
     top: 0;
+  }
+
+  .logo {
+    margin: 0;
   }
 }
