@@ -1,9 +1,6 @@
+import { useContextApi } from "@/hooks/useContextApi";
 import { Personagens } from "../data/Personagens";
 import { Rubik, Secular_One } from "next/font/google";
-
-type Props = {
-  id: number;
-};
 
 const secularOne = Secular_One({
   subsets: ["latin"],
@@ -15,7 +12,10 @@ const rubik = Rubik({
   weight: ["400"],
 });
 
-export const Personagem = ({ id }: Props) => {
+export const Personagem = () => {
+  
+  const {id} = useContextApi();
+
   return (
     <>
       <main className="h-screen after:content-[''] after:fixed after:top-0 after:left-0 md:after:min-w-full after:min-h-screen">
